@@ -1,0 +1,190 @@
+/**
+ * CONTENTS
+ *
+ * OBJECTS
+ *
+ * TYPE-PROPERTIES
+ *
+ * COLOR-PROPERTIES
+ *
+ * TRANSITIONS
+ *
+ */
+
+
+
+
+
+
+/*------------------------------------*\
+    #Objects
+\*------------------------------------*/
+
+body {
+  height: 500px;
+  margin: 0 auto;
+  padding: 0px;
+  background-image: url("../img/cambodia_background_square_small.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  position: relative;
+  width: 80%;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.four-by-three.aspect-ratio {
+  padding-bottom: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  position: absolute;
+  top: 7%;  bottom: 0;  left: 0;  right: 0;
+  padding: 0 24px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+
+.navigate {
+padding-top: 1em;
+padding-left: 10%;
+margin: 0 .5em;
+}
+
+.nav-button {
+display: block;
+width: 25%;
+float: left;
+}
+
+.logo-box {
+margin: 15.8% auto;
+opacity: 0.7;
+min-width: 700px;
+border-radius: 2px;
+
+}
+
+.blurb {
+position: relative;
+top: -50px;
+text-align: center;
+margin-top: 0px;
+
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #Type-Properties
+\*------------------------------------*/
+
+.body-font {
+  font-family: 'Lato', sans-serif;
+}
+.header-font {
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav-text {
+  text-decoration: none;
+  font-size:
+}
+
+.logo-text {
+  font-size: 72pt;
+text-align: center;
+line-height: 0;
+/* opacity: 1; */
+/* bottom: -28px; */
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.subhead {
+  font-size: 24pt;
+font-weight: lighter;
+font-style: italic;
+letter-spacing: -.05em;
+
+}
+
+
+
+
+
+/*------------------------------------*\
+    #Color-Properties
+\*------------------------------------*/
+
+.darkest-back {
+  background-color: #000000;
+}
+
+.darkest {
+color: #000000;
+}
+
+.darker-back {
+  background-color: #565656;
+}
+
+.darker {
+  color: #565656;
+}
+
+.mid-tone-back {
+  background-color: #848484;
+}
+
+.mid-tone {
+  color: #848484;
+}
+
+.lighter-back {
+  background-color: #bcbcbc;
+}
+
+.lighter {
+  color: #bcbcbc;
+}
+
+.lightest-back {
+  background-color: #ffffff;
+}
+
+.lightest {
+  color: #ffffff;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #Transitions
+\*------------------------------------*/
+
+
+/*Add fade effect later*/
+.logo-box:hover {
+      background-color: #ffffff;
+      color: #000000;
+      opacity: .2;
+
+}
