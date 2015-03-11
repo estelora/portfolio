@@ -24,7 +24,7 @@ body {
   height: 500px;
   margin: 0 auto;
   padding: 0px;
-  background-image: url("../img/cambodia_background_square_small.jpg");
+  background-image: url("../img/jeju-sunset.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -59,14 +59,13 @@ margin: 0 .5em;
 
 .nav-button {
 display: block;
-width: 25%;
+width: 20%;
 float: left;
 }
 
 .logo-box {
-margin: 15.8% auto;
-opacity: 0.7;
-min-width: 700px;
+/*margin: 15.8% auto;*/
+opacity: 0.8;
 border-radius: 2px;
 
 }
@@ -102,10 +101,10 @@ margin-top: 0px;
 
 .logo-text {
   font-size: 72pt;
-text-align: center;
-line-height: 0;
-/* opacity: 1; */
-/* bottom: -28px; */
+  text-align: center;
+  line-height: 0;
+  /* opacity: 1; */
+  /* bottom: -28px; */
 }
 
 .uppercase {
@@ -183,8 +182,8 @@ color: #000000;
 
 /*Add fade effect later*/
 .logo-box:hover {
-      background-color: #ffffff;
-      color: #000000;
+      color: #ffffff;
+      background-color: #000000;
       opacity: .2;
 
 }
