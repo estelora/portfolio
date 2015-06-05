@@ -1,0 +1,115 @@
+.head {
+  font-family: $display;
+  font-size: 50px;
+  color: $white;
+  line-height: 60px;
+  margin-left: 1%;
+  margin-bottom: 3%;
+}
+
+.copy {
+  font-size: 30px;
+  font-weight: $light;
+  font-family: $sans-serif;
+  margin: 6% 20% 0;
+  line-height: 40px;
+  background-color: $neutral-light;
+  -webkit-box-shadow: $default-img-shadow-safari;
+  -moz-box-shadow: $default-img-shadow-moz;
+  box-shadow: $default-img-shadow-chrome;
+  @include pad();
+}
+
+/*------------------------------------*\
+#ABOUT MEDIA QUERIES
+\*------------------------------------*/
+
+@media all and (max-width:1000px) {
+  .head {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .copy {
+    font-size: 28px;
+    margin: 2% 14% 0;
+    line-height: 38px;
+  }
+}
+
+@media all and (max-width:900px) {
+  .head {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .copy {
+    font-size: 29px;
+    margin: 2% 10% 0;
+  }
+}
+
+@media all and (max-width:775px) {
+  .head {
+    font-size: 48px;
+    line-height: 53px;
+  }
+
+  .copy {
+    margin: 4% 11% 0;
+    line-height: 36px;
+    padding: 3%;
+  }
+}
+
+@media all and (max-width:650px) {
+  .head {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .copy {
+    font-size: 30px;
+    margin: 4% 9% 0;
+    line-height: 33px;
+    background-color: $neutral-light;
+  }
+}
+
+@media all and (max-width:600px) {
+  .head {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .copy {
+    font-size: 28px;
+    margin: 3% 10% 0;
+    line-height: 32px;
+    padding: 4%;
+  }
+}
+
+@media all and (max-width:500px) {
+  .head {
+    font-size: 31px;
+    line-height: 38px;
+  }
+
+  .copy {
+    font-size: 22px;
+    margin: 5% 8% 0;
+    line-height: 32px;
+  }
+}
+
+@media all and (max-width:400px) {
+  .head {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .copy {
+    font-size: 18px;
+    margin: 8% 11% 0;
+    line-height: 26px;
+  }
+}
