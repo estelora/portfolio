@@ -224,12 +224,12 @@ a.contact-spacing:hover {
   margin-left: 1.70596%; }
   a.contact-spacing:hover .contact-icon {
     color: #ff6e24;
-    text-shadow: 0.75px 0.75px 0.3px #414141;
+    text-shadow: 0.5px 0.5px 0.3px rgba(65, 65, 65, 0.75);
     transition: 50ms;
     -webkit-transition: 50ms; }
   a.contact-spacing:hover .contact-copy {
     color: #000000;
-    text-shadow: 0.75px 0.75px 0.3px #414141;
+    text-shadow: 0.5px 0.5px 0.3px rgba(65, 65, 65, 0.75);
     transition: 50ms;
     -webkit-transition: 50ms;
     font-size: 20px; }
