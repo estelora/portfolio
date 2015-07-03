@@ -480,7 +480,7 @@ a.project-link:hover {
   }
   .project-img {
     float: left;
-    border: 1px dashed green;
+    // border: 1px dashed green;
     @include span-columns(5.8);
   }
   .flower-screenshot {
@@ -498,7 +498,7 @@ a.project-link:hover {
     font-size: 13px;
     line-height: 20px;
     font-family: $sans-serif;
-    border: 1px dashed black;
+    // border: 1px dashed black;
     @include span-columns(6.2);
     .icon-small {
       padding: 3px 1px 3px 3px;
@@ -591,7 +591,7 @@ a.project-link:hover {
   }
   .project-img {
     float: left;
-    border: 1px dashed green;
+    // border: 1px dashed green;
     @include span-columns(5);
   }
   .flower-screenshot {
@@ -609,7 +609,7 @@ a.project-link:hover {
     font-size: 13px;
     line-height: 18px;
     font-family: $sans-serif;
-    border: 1px dashed black;
+    // border: 1px dashed black;
     @include span-columns(7);
     .icon-small {
       padding: 3px 1px 3px 3px;
@@ -702,7 +702,7 @@ a.project-link:hover {
   }
   .project-img {
     float: left;
-    border: 1px dashed green;
+    // border: 1px dashed green;
     @include span-columns(5);
   }
   .flower-screenshot {
@@ -720,7 +720,7 @@ a.project-link:hover {
     font-size: 13px;
     line-height: 18px;
     font-family: $sans-serif;
-    border: 1px dashed black;
+    // border: 1px dashed black;
     @include span-columns(7);
     .icon-small {
       padding: 3px 1px 3px 3px;
@@ -814,7 +814,7 @@ a.project-link:hover {
   }
   .project-img {
     float: left;
-    border: 1px dashed green;
+    // border: 1px dashed green;
     @include span-columns(11);
     @include shift(.5);
     margin-bottom: 10px;
@@ -834,7 +834,7 @@ a.project-link:hover {
     font-size: 12px;
     line-height: 16px;
     font-family: $sans-serif;
-    border: 1px dashed black;
+    // border: 1px dashed black;
     @include span-columns(11);
     @include shift(.5);
     .icon-small {
@@ -894,7 +894,7 @@ a.project-link:hover {
     font-size: 11px;
     line-height: 15px;
     font-family: $sans-serif;
-    border: 1px dashed black;
+    // border: 1px dashed black;
     @include span-columns(11.5);
     @include shift(.25);
     .icon-small {
