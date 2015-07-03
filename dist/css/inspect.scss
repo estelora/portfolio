@@ -2,8 +2,7 @@
     #INSPECT
 \*------------------------------------*/
 .portfolio-content {
-  padding: 1%;
-  margin-top: 2px;
+  margin-top: 7px;
   @include outer-container;
 }
 .inspect-header {
@@ -15,10 +14,13 @@
 .portfolio-spacer {
   margin-top: 1.5%;
 }
+.copy-spacer {
+  margin-top: 3.5%;
+}
 .portfolio-head {
   font-family: $display;
   color: $dark-gray;
-  font-size: 45px;
+  font-size: 38px;
   float: left;
   margin-left: 3px;
 }

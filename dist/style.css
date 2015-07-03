@@ -940,8 +940,7 @@ a.nav:hover {
     #INSPECT
 \*------------------------------------*/
 .portfolio-content {
-  padding: 1%;
-  margin-top: 2px;
+  margin-top: 7px;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
@@ -964,10 +963,13 @@ a.nav:hover {
 .portfolio-spacer {
   margin-top: 1.5%; }
 
+.copy-spacer {
+  margin-top: 3.5%; }
+
 .portfolio-head {
   font-family: 'Londrina Solid', cursive;
   color: #414141;
-  font-size: 45px;
+  font-size: 38px;
   float: left;
   margin-left: 3px; }
 
