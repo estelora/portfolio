@@ -1787,7 +1787,7 @@ a.project-link:hover {
     float: left;
     margin-left: 3px; }
   .inspect-fox {
-    width: 60px;
+    width: 42px;
     height: 100%;
     float: left;
     margin-left: 23.88345%; }
@@ -1880,7 +1880,7 @@ a.project-link:hover {
 
 @media all and (max-width: 350px) {
   .inspect-fox {
-    margin-left: 15.35365%; }
+     margin-left: 23.35365%; }
   .portfolio-spacer {
     margin-top: 3%; }
   .project-info {
