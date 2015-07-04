@@ -1458,10 +1458,9 @@ a.project-link:hover {
       color: #000000;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 600;
-      font-size: 28px; }
+      margin-left: 0px;
+      font-size: 20px; }
   .project-img {
-    float: left;
- /*   border: 1px dashed green;*/
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1481,7 +1480,6 @@ a.project-link:hover {
     font-size: 13px;
     line-height: 20px;
     font-family: 'Josefin Sans', sans-serif;
-    /*border: 1px dashed black;*/
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1578,8 +1576,6 @@ a.project-link:hover {
       font-size: 28px; }
   .project-img {
     float: left;
-   /* border: 1px dashed green;*/
-    float: left;
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%; }
@@ -1598,7 +1594,6 @@ a.project-link:hover {
     font-size: 13px;
     line-height: 18px;
     font-family: 'Josefin Sans', sans-serif;
-   /* border: 1px dashed black;*/
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1695,8 +1690,6 @@ a.project-link:hover {
       font-size: 28px; }
   .project-img {
     float: left;
-/*    border: 1px dashed green;*/
-    float: left;
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%; }
@@ -1715,7 +1708,6 @@ a.project-link:hover {
     font-size: 13px;
     line-height: 18px;
     font-family: 'Josefin Sans', sans-serif;
-   /* border: 1px dashed black;*/
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1813,8 +1805,6 @@ a.project-link:hover {
       margin-left: 7px; }
   .project-img {
     float: left;
-/*    border: 1px dashed green;*/
-    float: left;
     display: block;
     margin-right: 2.35765%;
     width: 91.4702%;
@@ -1835,7 +1825,6 @@ a.project-link:hover {
     font-size: 12px;
     line-height: 16px;
     font-family: 'Josefin Sans', sans-serif;
-   /* border: 1px dashed black;*/
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1889,7 +1878,6 @@ a.project-link:hover {
     font-size: 11px;
     line-height: 15px;
     font-family: 'Josefin Sans', sans-serif;
-   /* border: 1px dashed black;*/
     float: left;
     display: block;
     margin-right: 2.35765%;
