@@ -931,10 +931,13 @@ a.nav:hover {
   .head {
     font-size: 22px;
     line-height: 30px; }
-  .copy {
-    font-size: 18px;
-    margin: 8% 11% 0;
-    line-height: 26px; } }
+    .copy {
+      font-size: 18px;
+      margin-top: 4%;
+      margin-bottom: 4%;
+      margin-left: 8%;
+      margin-right: 8%;
+      line-height: 26px; } }
 
 /*------------------------------------*\
     #INSPECT
@@ -948,6 +951,10 @@ a.nav:hover {
     clear: both;
     content: "";
     display: table; }
+
+.content {
+  padding-bottom: 20px;
+}
 
 .inspect-header {
   text-align: center;
@@ -985,11 +992,13 @@ a.nav:hover {
   float: left;
   display: block;
   margin-right: 2.35765%;
+  margin-bottom: 2%;
   width: 82.94039%;
   margin-left: 8.5298%;
   text-decoration: none; }
   .project:last-child {
-    margin-right: 0; }
+    margin-right: 0;
+    margin-bottom: 10px; }
 
 .project-name {
   padding: 5px; }
@@ -1111,7 +1120,8 @@ a.project-link:hover {
     margin-left: 8.5298%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; }
+      margin-right: 0;
+      margin-bottom: 10px; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1224,7 +1234,8 @@ a.project-link:hover {
     margin-left: 4.2649%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; }
+      margin-right: 0; 
+    margin-bottom: 10px;}
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1337,7 +1348,8 @@ a.project-link:hover {
     margin-left: 4.2649%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; }
+      margin-right: 0; 
+    margin-bottom: 10px;}
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1451,7 +1463,8 @@ a.project-link:hover {
     margin-left: 4.2649%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; }
+      margin-right: 0;
+      margin-bottom: 10px; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1566,7 +1579,8 @@ a.project-link:hover {
     margin-left: 3.41192%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; }
+      margin-right: 0;
+      margin-bottom: 10px; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1680,7 +1694,8 @@ a.project-link:hover {
     margin-left: 3.41192%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; }
+      margin-right: 0; 
+    margin-bottom: 10px;}
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1694,7 +1709,8 @@ a.project-link:hover {
     margin-right: 2.35765%;
     width: 40.29137%; }
     .project-img:last-child {
-      margin-right: 0; }
+      margin-right: 0;
+      margin-bottom: 10px; }
   .flower-screenshot {
     width: 100%;
     height: auto; }
@@ -1771,15 +1787,15 @@ a.project-link:hover {
     .inspect-header:last-child {
       margin-right: 0; }
   .portfolio-spacer {
-    margin-top: 2.5%; }
+    margin-top: 1%; }
   .portfolio-head {
     font-family: 'Londrina Solid', cursive;
     color: #414141;
-    font-size: 30px;
+    font-size: 20px;
     float: left;
     margin-left: 3px; }
   .inspect-fox {
-    width: 42px;
+    width: 30px;
     height: 100%;
     float: left;
     margin-left: 23.88345%; }
@@ -1794,21 +1810,22 @@ a.project-link:hover {
     margin-left: 12.79471%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; }
+      margin-right: 0;
+      margin-bottom: 10px; }
   .project-name {
-    padding: 7px; }
+    padding: 3px; }
     .project-name .project-link {
       color: #000000;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 600;
-      font-size: 28px;
+      font-size: 15px;
       margin-left: 7px; }
   .project-img {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 91.4702%;
-    margin-left: 4.2649%;
+    width: 70%;
+    margin-left: 12%;
     margin-bottom: 10px; }
     .project-img:last-child {
       margin-right: 0; }
@@ -1820,25 +1837,25 @@ a.project-link:hover {
     transition: 200ms;
     webkit-transition: 200ms; }
   .project-info {
-    padding: 1px;
-    float: left;
-    font-size: 12px;
-    line-height: 16px;
-    font-family: 'Josefin Sans', sans-serif;
-    float: left;
-    display: block;
+     padding: 1px;
+  float: left;
+  font-size: 10px;
+  line-height: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  float: left;
     margin-right: 2.35765%;
     width: 91.4702%;
     margin-left: 4.2649%; }
     .project-info:last-child {
-      margin-right: 0; }
+      margin-right: 0;
+      margin-bottom: 10px; }
     .project-info .icon-small {
       padding: 3px 1px 3px 3px; }
       .project-info .icon-small .project-icon {
         color: #414141; }
       .project-info .icon-small .link-info {
         font-weight: 300;
-        font-size: 14px;
+        font-size: 10px;
         color: #414141;
         margin-bottom: 2px; }
   a.project-link:hover {
@@ -1871,29 +1888,30 @@ a.project-link:hover {
   .inspect-fox {
      margin-left: 23.35365%; }
   .portfolio-spacer {
-    margin-top: 3%; }
-  .project-info {
-    padding: 1px;
-    float: left;
-    font-size: 11px;
-    line-height: 15px;
-    font-family: 'Josefin Sans', sans-serif;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 95.7351%;
-    margin-left: 2.13245%; }
-    .project-info:last-child {
-      margin-right: 0; }
-    .project-info .icon-small {
-      padding: 3px 1px 3px 3px; }
-      .project-info .icon-small .project-icon {
-        color: #414141; }
-      .project-info .icon-small .link-info {
-        font-weight: 300;
-        font-size: 13px;
-        color: #414141;
-        margin-bottom: 2px; } }
+    margin-top: 1%; }
+    .project-info {
+     padding: 1px;
+     float: left;
+     font-size: 10px;
+     line-height: 12px;
+     font-family: 'Josefin Sans', sans-serif;
+     float: left;
+     display: block;
+     margin-right: 2.35765%;
+     width: 95.7351%;
+     margin-left: 2.13245%; }
+     .project-info:last-child {
+      margin-right: 0;
+      margin-bottom: 10px; }
+      .project-info .icon-small {
+        padding: 3px 1px 3px 3px; }
+        .project-info .icon-small .project-icon {
+          color: #414141; }
+          .project-info .icon-small .link-info {
+            font-weight: 300;
+            font-size: 10px;
+            color: #414141;
+            margin-bottom: 2px; } }
 
 .social-icons h4 {
   display: inline-block;

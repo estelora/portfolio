@@ -5,6 +5,9 @@
   margin-top: 7px;
   @include outer-container;
 }
+.content {
+  padding-bottom: 20px;
+}
 .inspect-header {
   text-align: center;
   padding: 5px 0.5% 1%;
@@ -13,9 +16,6 @@
 }
 .portfolio-spacer {
   margin-top: 1.5%;
-}
-.copy-spacer {
-  margin-top: 3.5%;
 }
 .portfolio-head {
   font-family: $display;
@@ -829,12 +829,13 @@ a.project-link:hover {
     webkit-transition: 200ms;
   }
   .project-info {
-    padding: 1px;
-    float: left;
-    font-size: 12px;
-    line-height: 16px;
-    font-family: $sans-serif;
-    border: 1px dashed black;
+      padding: 1px;
+  float: left;
+  font-size: 10px;
+  line-height: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  float: left;
+  display: block;
     @include span-columns(11);
     @include shift(.5);
     .icon-small {
@@ -889,12 +890,13 @@ a.project-link:hover {
     margin-top: 3%;
   }
   .project-info {
-    padding: 1px;
-    float: left;
-    font-size: 11px;
-    line-height: 15px;
-    font-family: $sans-serif;
-    border: 1px dashed black;
+      padding: 1px;
+  float: left;
+  font-size: 10px;
+  line-height: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  float: left;
+  display: block;
     @include span-columns(11.5);
     @include shift(.25);
     .icon-small {
