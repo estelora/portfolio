@@ -931,19 +931,17 @@ a.nav:hover {
   .head {
     font-size: 22px;
     line-height: 30px; }
-    .copy {
-      font-size: 18px;
-      margin-top: 4%;
-      margin-bottom: 4%;
-      margin-left: 8%;
-      margin-right: 8%;
-      line-height: 26px; } }
+  .copy {
+    font-size: 18px;
+    margin: 8% 11% 0;
+    line-height: 26px; } }
 
 /*------------------------------------*\
     #INSPECT
 \*------------------------------------*/
 .portfolio-content {
-  margin-top: 7px;
+  padding: 1%;
+  margin-top: 2px;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
@@ -951,10 +949,6 @@ a.nav:hover {
     clear: both;
     content: "";
     display: table; }
-
-.content {
-  padding-bottom: 20px;
-}
 
 .inspect-header {
   text-align: center;
@@ -970,18 +964,15 @@ a.nav:hover {
 .portfolio-spacer {
   margin-top: 1.5%; }
 
-.copy-spacer {
-  margin-top: 3.5%; }
-
 .portfolio-head {
   font-family: 'Londrina Solid', cursive;
   color: #414141;
-  font-size: 38px;
+  font-size: 45px;
   float: left;
   margin-left: 3px; }
 
 .inspect-fox {
-  width: 70px;
+  width: 80px;
   height: 100%;
   float: left;
   margin-left: 32.41326%; }
@@ -992,13 +983,11 @@ a.nav:hover {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  margin-bottom: 2%;
   width: 82.94039%;
   margin-left: 8.5298%;
   text-decoration: none; }
   .project:last-child {
-    margin-right: 0;
-    margin-bottom: 12%; }
+    margin-right: 0; }
 
 .project-name {
   padding: 5px; }
@@ -1106,7 +1095,7 @@ a.project-link:hover {
     float: left;
     margin-left: 3px; }
   .inspect-fox {
-    width: 70px;
+    width: 80px;
     height: 100%;
     float: left;
     margin-left: 32.41326%; }
@@ -1120,8 +1109,7 @@ a.project-link:hover {
     margin-left: 8.5298%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+      margin-right: 0; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1220,7 +1208,7 @@ a.project-link:hover {
     float: left;
     margin-left: 3px; }
   .inspect-fox {
-    width: 65px;
+    width: 75px;
     height: 100%;
     float: left;
     margin-left: 32.41326%; }
@@ -1234,8 +1222,7 @@ a.project-link:hover {
     margin-left: 4.2649%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; 
-    margin-bottom: 10px;}
+      margin-right: 0; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1348,8 +1335,7 @@ a.project-link:hover {
     margin-left: 4.2649%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; 
-    margin-bottom: 10px;}
+      margin-right: 0; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1449,7 +1435,7 @@ a.project-link:hover {
     float: left;
     margin-left: 3px; }
   .inspect-fox {
-    width: 80px;
+    width: 90px;
     height: 100%;
     float: left;
     margin-left: 32.41326%; }
@@ -1463,17 +1449,17 @@ a.project-link:hover {
     margin-left: 4.2649%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+      margin-right: 0; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
       color: #000000;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 600;
-      margin-left: 0px;
-      font-size: 20px; }
+      font-size: 28px; }
   .project-img {
+    float: left;
+    border: 1px dashed green;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1493,6 +1479,7 @@ a.project-link:hover {
     font-size: 13px;
     line-height: 20px;
     font-family: 'Josefin Sans', sans-serif;
+    border: 1px dashed black;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1564,7 +1551,7 @@ a.project-link:hover {
     float: left;
     margin-left: 3px; }
   .inspect-fox {
-    width: 70px;
+    width: 80px;
     height: 100%;
     float: left;
     margin-left: 32.41326%; }
@@ -1579,8 +1566,7 @@ a.project-link:hover {
     margin-left: 3.41192%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+      margin-right: 0; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1589,6 +1575,8 @@ a.project-link:hover {
       font-weight: 600;
       font-size: 28px; }
   .project-img {
+    float: left;
+    border: 1px dashed green;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1608,6 +1596,7 @@ a.project-link:hover {
     font-size: 13px;
     line-height: 18px;
     font-family: 'Josefin Sans', sans-serif;
+    border: 1px dashed black;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1679,7 +1668,7 @@ a.project-link:hover {
     float: left;
     margin-left: 3px; }
   .inspect-fox {
-    width: 70px;
+    width: 80px;
     height: 100%;
     float: left;
     margin-left: 32.41326%; }
@@ -1694,8 +1683,7 @@ a.project-link:hover {
     margin-left: 3.41192%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; 
-    margin-bottom: 10px;}
+      margin-right: 0; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1705,12 +1693,13 @@ a.project-link:hover {
       font-size: 28px; }
   .project-img {
     float: left;
+    border: 1px dashed green;
+    float: left;
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%; }
     .project-img:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+      margin-right: 0; }
   .flower-screenshot {
     width: 100%;
     height: auto; }
@@ -1724,6 +1713,7 @@ a.project-link:hover {
     font-size: 13px;
     line-height: 18px;
     font-family: 'Josefin Sans', sans-serif;
+    border: 1px dashed black;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -1787,15 +1777,15 @@ a.project-link:hover {
     .inspect-header:last-child {
       margin-right: 0; }
   .portfolio-spacer {
-    margin-top: 1%; }
+    margin-top: 2.5%; }
   .portfolio-head {
     font-family: 'Londrina Solid', cursive;
     color: #414141;
-    font-size: 20px;
+    font-size: 30px;
     float: left;
     margin-left: 3px; }
   .inspect-fox {
-    width: 30px;
+    width: 60px;
     height: 100%;
     float: left;
     margin-left: 23.88345%; }
@@ -1810,22 +1800,23 @@ a.project-link:hover {
     margin-left: 12.79471%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+      margin-right: 0; }
   .project-name {
-    padding: 3px; }
+    padding: 7px; }
     .project-name .project-link {
       color: #000000;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 600;
-      font-size: 15px;
+      font-size: 28px;
       margin-left: 7px; }
   .project-img {
     float: left;
+    border: 1px dashed green;
+    float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 70%;
-    margin-left: 12%;
+    width: 91.4702%;
+    margin-left: 4.2649%;
     margin-bottom: 10px; }
     .project-img:last-child {
       margin-right: 0; }
@@ -1837,25 +1828,26 @@ a.project-link:hover {
     transition: 200ms;
     webkit-transition: 200ms; }
   .project-info {
-     padding: 1px;
-  float: left;
-  font-size: 10px;
-  line-height: 12px;
-  font-family: 'Josefin Sans', sans-serif;
-  float: left;
+    padding: 1px;
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px dashed black;
+    float: left;
+    display: block;
     margin-right: 2.35765%;
     width: 91.4702%;
     margin-left: 4.2649%; }
     .project-info:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+      margin-right: 0; }
     .project-info .icon-small {
       padding: 3px 1px 3px 3px; }
       .project-info .icon-small .project-icon {
         color: #414141; }
       .project-info .icon-small .link-info {
         font-weight: 300;
-        font-size: 10px;
+        font-size: 14px;
         color: #414141;
         margin-bottom: 2px; }
   a.project-link:hover {
@@ -1886,32 +1878,32 @@ a.project-link:hover {
 
 @media all and (max-width: 350px) {
   .inspect-fox {
-     margin-left: 23.35365%; }
+    margin-left: 15.35365%; }
   .portfolio-spacer {
-    margin-top: 1%; }
-    .project-info {
-     padding: 1px;
-     float: left;
-     font-size: 10px;
-     line-height: 12px;
-     font-family: 'Josefin Sans', sans-serif;
-     float: left;
-     display: block;
-     margin-right: 2.35765%;
-     width: 95.7351%;
-     margin-left: 2.13245%; }
-     .project-info:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
-      .project-info .icon-small {
-        padding: 3px 1px 3px 3px; }
-        .project-info .icon-small .project-icon {
-          color: #414141; }
-          .project-info .icon-small .link-info {
-            font-weight: 300;
-            font-size: 10px;
-            color: #414141;
-            margin-bottom: 2px; } }
+    margin-top: 3%; }
+  .project-info {
+    padding: 1px;
+    float: left;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px dashed black;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 95.7351%;
+    margin-left: 2.13245%; }
+    .project-info:last-child {
+      margin-right: 0; }
+    .project-info .icon-small {
+      padding: 3px 1px 3px 3px; }
+      .project-info .icon-small .project-icon {
+        color: #414141; }
+      .project-info .icon-small .link-info {
+        font-weight: 300;
+        font-size: 13px;
+        color: #414141;
+        margin-bottom: 2px; } }
 
 .social-icons h4 {
   display: inline-block;
