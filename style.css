@@ -1810,9 +1810,9 @@ a.project-link:hover {
     width: 74.41059%;
     margin-left: 12.79471%;
     text-decoration: none; }
-     .project:last-child {
+    .project:last-child {
     margin-right: 0;
-    margin-bottom: 12%; }
+    margin-bottom: 20% !important; }
   .project-name {
     padding: 3px; }
     .project-name .project-link {
@@ -1847,9 +1847,6 @@ a.project-link:hover {
     margin-right: 2.35765%;
     width: 91.4702%;
     margin-left: 4.2649%; }
-     .project:last-child {
-    margin-right: 0;
-    margin-bottom: 12%; }
     .project-info .icon-small {
       padding: 3px 1px 3px 3px; }
       .project-info .icon-small .project-icon {
