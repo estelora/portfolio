@@ -1119,9 +1119,9 @@ a.project-link:hover {
     width: 82.94039%;
     margin-left: 8.5298%;
     text-decoration: none; }
-    .project:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+     .project:last-child {
+    margin-right: 0;
+    margin-bottom: 12%; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1135,8 +1135,9 @@ a.project-link:hover {
     display: block;
     margin-right: 2.35765%;
     width: 45.83574%; }
-    .project-img:last-child {
-      margin-right: 0; }
+     .project:last-child {
+    margin-right: 0;
+    margin-bottom: 12%; }
   .flower-screenshot {
     width: 100%;
     height: auto; }
@@ -1234,8 +1235,8 @@ a.project-link:hover {
     margin-left: 4.2649%;
     text-decoration: none; }
     .project:last-child {
-      margin-right: 0; 
-    margin-bottom: 10px;}
+    margin-right: 0;
+    margin-bottom: 12%; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1347,9 +1348,9 @@ a.project-link:hover {
     width: 91.4702%;
     margin-left: 4.2649%;
     text-decoration: none; }
-    .project:last-child {
-      margin-right: 0; 
-    margin-bottom: 10px;}
+     .project:last-child {
+    margin-right: 0;
+    margin-bottom: 12%; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1462,9 +1463,9 @@ a.project-link:hover {
     width: 91.4702%;
     margin-left: 4.2649%;
     text-decoration: none; }
-    .project:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+     .project:last-child {
+    margin-right: 0;
+    margin-bottom: 12%; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1578,9 +1579,9 @@ a.project-link:hover {
     width: 93.17616%;
     margin-left: 3.41192%;
     text-decoration: none; }
-    .project:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+     .project:last-child {
+    margin-right: 0;
+    margin-bottom: 12%; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1693,9 +1694,9 @@ a.project-link:hover {
     width: 93.17616%;
     margin-left: 3.41192%;
     text-decoration: none; }
-    .project:last-child {
-      margin-right: 0; 
-    margin-bottom: 10px;}
+     .project:last-child {
+    margin-right: 0;
+    margin-bottom: 12%; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
@@ -1809,9 +1810,9 @@ a.project-link:hover {
     width: 74.41059%;
     margin-left: 12.79471%;
     text-decoration: none; }
-    .project:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+     .project:last-child {
+    margin-right: 0;
+    margin-bottom: 12%; }
   .project-name {
     padding: 3px; }
     .project-name .project-link {
@@ -1846,9 +1847,9 @@ a.project-link:hover {
     margin-right: 2.35765%;
     width: 91.4702%;
     margin-left: 4.2649%; }
-    .project-info:last-child {
-      margin-right: 0;
-      margin-bottom: 10px; }
+     .project:last-child {
+    margin-right: 0;
+    margin-bottom: 12%; }
     .project-info .icon-small {
       padding: 3px 1px 3px 3px; }
       .project-info .icon-small .project-icon {
