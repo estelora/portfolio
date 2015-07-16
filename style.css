@@ -1696,7 +1696,7 @@ a.project-link:hover {
     text-decoration: none; }
      .project:last-child {
     margin-right: 0;
-    margin-bottom: 20%; }
+    margin-bottom: 20% !important; }
   .project-name {
     padding: 5px; }
     .project-name .project-link {
