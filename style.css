@@ -685,7 +685,7 @@ a.nav:hover {
   a.nav {
     text-decoration: none;
     color: #414141;
-    font-size: 20px;
+    font-size: 16px;
     text-align: right;
     font-weight: 300;
     float: right;
@@ -877,35 +877,35 @@ a.nav:hover {
     font-size: 45px;
     line-height: 50px; }
   .copy {
-    font-size: 28px;
-    margin: 2% 14% 0;
-    line-height: 38px; } }
+    font-size: 24px;
+    margin:  4% 2%;
+    line-height: 30px; } }
 
 @media all and (max-width: 900px) {
   .head {
     font-size: 50px;
     line-height: 55px; }
   .copy {
-    font-size: 29px;
-    margin: 2% 10% 0; } }
+    font-size: 24px;
+    margin: 5% 2%; } }
 
 @media all and (max-width: 775px) {
   .head {
     font-size: 48px;
     line-height: 53px; }
   .copy {
-    margin: 4% 11% 0;
-    line-height: 36px;
-    padding: 3%; } }
+    margin: 5% 3%;
+    line-height: 30px;
+    padding: 4%; } }
 
 @media all and (max-width: 650px) {
   .head {
     font-size: 40px;
     line-height: 45px; }
   .copy {
-    font-size: 30px;
+    font-size: 20px;
     margin: 4% 9% 0;
-    line-height: 33px;
+    line-height: 28px;
     background-color: #ff6e24; } }
 
 @media all and (max-width: 600px) {
@@ -913,19 +913,19 @@ a.nav:hover {
     font-size: 35px;
     line-height: 40px; }
   .copy {
-    font-size: 28px;
-    margin: 3% 10% 0;
-    line-height: 32px;
-    padding: 4%; } }
+   font-size: 22px;
+   margin: 2% 4% 0;
+   line-height: 26px;
+   padding: 3%; } }
 
 @media all and (max-width: 500px) {
   .head {
     font-size: 31px;
     line-height: 38px; }
   .copy {
-    font-size: 22px;
-    margin: 5% 8% 0;
-    line-height: 32px; } }
+    font-size: 20px;
+    margin: 3% 4% 0;
+    line-height: 24px; } }
 
 @media all and (max-width: 400px) {
   .head {
@@ -933,11 +933,8 @@ a.nav:hover {
     line-height: 30px; }
     .copy {
       font-size: 18px;
-      margin-top: 4%;
-      margin-bottom: 4%;
-      margin-left: 8%;
-      margin-right: 8%;
-      line-height: 26px; } }
+      margin: 5% 3%;
+      line-height: 24px; } }
 
 /*------------------------------------*\
     #INSPECT
