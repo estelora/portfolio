@@ -384,6 +384,8 @@ a.nav:hover {
   -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75); }
 
+
+
 /*------------------------------------*\
     #INDEX MEDIA QUERIES
 \*------------------------------------*/
@@ -854,7 +856,7 @@ a.nav:hover {
   font-size: 50px;
   color: #FFFFFF;
   line-height: 60px;
-  margin-left: 1%;
+  margin-left: 2%;
   margin-bottom: 3%; }
 
 .copy {
@@ -982,7 +984,7 @@ a.nav:hover {
 
 .portfolio-head {
   font-family: 'Londrina Solid', cursive;
-  color: #414141;
+  color: black;
   font-size: 38px;
   float: left;
   margin-left: 3px; }
@@ -1013,7 +1015,7 @@ a.nav:hover {
     color: #000000;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    font-size: 30px; }
+    font-size: 35px; }
 
 .project-img {
   float: left;
@@ -1026,7 +1028,22 @@ a.nav:hover {
 
 .flower-screenshot {
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 5%;
+} }
+
+.project-live {
+  margin: 4% 0 0 0;
+}
+
+.live-link {
+  color: #414141;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: .65%;
+}
 
 a.site-link:hover {
   opacity: 0.75;
@@ -1147,7 +1164,10 @@ a.project-link:hover {
     margin-bottom: 12%; }
   .flower-screenshot {
     width: 100%;
-    height: auto; }
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    } }
   a.site-link:hover {
     opacity: 0.75;
     transition: 200ms;
@@ -1172,6 +1192,7 @@ a.project-link:hover {
         font-weight: 300;
         font-size: 20px;
         color: #414141; }
+
   a.project-link:hover {
     text-decoration: none !important;
     color: #414141 !important;
@@ -1314,8 +1335,6 @@ a.project-link:hover {
 
 @media all and (max-width: 825px) {
   .portfolio-content {
-    padding: 1%;
-    margin-top: 3%;
     max-width: 68em;
     margin-left: auto;
     margin-right: auto; }
@@ -1364,18 +1383,29 @@ a.project-link:hover {
       color: #000000;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 600;
-      font-size: 28px; }
+      font-size: 32px; }
   .project-img {
     float: left;
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 45.83574%; }
-    .project-img:last-child {
-      margin-right: 0; }
+  .project-img:last-child {
+    margin-right: 0; }
   .flower-screenshot {
     width: 100%;
-    height: auto; }
+    height: auto;
+    margin-top: 6%; }
+  .live-link {
+    color: #414141;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 0;
+  }
+  .right-push {
+    margin-left: .6%;
+  }
   a.site-link:hover {
     opacity: 0.75;
     transition: 200ms;
@@ -1429,8 +1459,8 @@ a.project-link:hover {
 
 @media all and (max-width: 750px) {
   .portfolio-content {
-    padding: 1%;
-    margin-top: 4%;
+    padding: 0.5%;
+    margin-top: 0%;
     max-width: 68em;
     margin-left: auto;
     margin-right: auto; }
@@ -1491,6 +1521,9 @@ a.project-link:hover {
   .flower-screenshot {
     width: 100%;
     height: auto; }
+  .live-link {
+    font-size: 16px;
+  }
   a.site-link:hover {
     opacity: 0.75;
     transition: 200ms;
@@ -1799,11 +1832,11 @@ a.project-link:hover {
   .portfolio-head {
     font-family: 'Londrina Solid', cursive;
     color: #414141;
-    font-size: 20px;
+    font-size: 28px;
     float: left;
     margin-left: 3px; }
   .inspect-fox {
-    width: 30px;
+    width: 40px;
     height: 100%;
     float: left;
     margin-left: 23.88345%; }
@@ -1826,15 +1859,14 @@ a.project-link:hover {
       color: #000000;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 600;
-      font-size: 15px;
+      font-size: 24px;
       margin-left: 7px; }
   .project-img {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 70%;
-    margin-left: 12%;
-    margin-bottom: 10px; }
+    margin-left: 12%; }
     .project-img:last-child {
       margin-right: 0; }
   .flower-screenshot {
@@ -1844,11 +1876,15 @@ a.project-link:hover {
     opacity: 0.75;
     transition: 200ms;
     webkit-transition: 200ms; }
+  .fa-sitemap {
+    margin-left: -1%;
+    font-size: 15px !important;
+  }
   .project-info {
      padding: 1px;
   float: left;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 11px;
+  line-height: 13px;
   font-family: 'Josefin Sans', sans-serif;
   float: left;
     margin-right: 2.35765%;
@@ -1860,7 +1896,7 @@ a.project-link:hover {
         color: #414141; }
       .project-info .icon-small .link-info {
         font-weight: 300;
-        font-size: 10px;
+        font-size: 12px;
         color: #414141;
         margin-bottom: 2px; }
   a.project-link:hover {
