@@ -884,6 +884,7 @@ a.nav:hover {
 /*------------------------------------*\
   #ABOUT MEDIA QUERIES
 \*------------------------------------*/
+
 @media all and (max-width: 1000px) {
   .head {
     font-size: 45px;
