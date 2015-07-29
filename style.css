@@ -991,7 +991,7 @@ a.nav:hover {
   vertical-align: center; }
 
 .project {
-  background-color: #F5D2CC;
+  background-color: #E4E4E4;
   padding: 1.5%;
   float: left;
   display: block;
@@ -999,6 +999,7 @@ a.nav:hover {
   margin-bottom: 2%;
   width: 82.94039%;
   margin-left: 8.5298%;
+  color: black;
   text-decoration: none; }
   .project:last-child {
     margin-right: 0;
