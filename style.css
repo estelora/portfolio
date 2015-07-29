@@ -1034,7 +1034,7 @@ a.nav:hover {
 }
 
 .live-link {
-  color: #414141;
+  color: black;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -1061,15 +1061,15 @@ a.site-link:hover {
   .project-info .icon-small {
     padding: 3px 1px 3px 3px; }
     .project-info .icon-small .project-icon {
-      color: #414141; }
+      color: black; }
     .project-info .icon-small .link-info {
       font-weight: 300;
       font-size: 20px;
-      color: #414141; }
+      color: black; }
 
 a.project-link:hover {
   text-decoration: none !important;
-  color: #414141 !important;
+  color: black;
   text-shadow: 1px 1px 0.5px #FFFFFF !important;
   transition: 300ms;
   webkit-transition: 300ms; }
@@ -1080,7 +1080,7 @@ a.project-link:hover {
     transition: 300ms;
     webkit-transition: 300ms; }
     a.project-link:hover .icon-small .project-icon {
-      color: #414141 !important;
+      color: black;
       text-shadow: 1px 1px 0.5px #FFFFFF !important;
       font-size: 10px;
       transition: 300ms;
@@ -1088,7 +1088,7 @@ a.project-link:hover {
     a.project-link:hover .icon-small .link-info {
       font-weight: 400 !important;
       font-size: 20px !important;
-      color: #414141 !important;
+      color: black;
       text-shadow: 1px 1px 0.5px #FFFFFF !important;
       transition: 300ms;
       webkit-transition: 300ms; }
@@ -1131,7 +1131,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 1.5%;
     float: left;
     display: block;
@@ -1183,11 +1182,11 @@ a.project-link:hover {
     .project-info .icon-small {
       padding: 3px 1px 3px 3px; }
       .project-info .icon-small .project-icon {
-        color: #414141; }
+        color: black; }
       .project-info .icon-small .link-info {
         font-weight: 300;
         font-size: 20px;
-        color: #414141; }
+        color: black; }
 
   a.project-link:hover {
     text-decoration: none !important;
