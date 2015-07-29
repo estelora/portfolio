@@ -965,20 +965,19 @@ a.nav:hover {
 .content {
   padding-bottom: 20px;
 }
+.proj-copy {
+  margin-bottom: .5em;
+}
 
 .inspect-header {
   text-align: center;
   padding: 5px 0.5% 1%;
+  display: inline-block;
   float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 91.4702%;
-  margin-left: 4.2649%; }
+  display: inline-block;
+  width: 91.4702%; }
   .inspect-header:last-child {
     margin-right: 0; }
-
-.portfolio-spacer {
-  margin-top: 1.5%; }
 
 .copy-spacer {
   margin-top: 3.5%; }
@@ -986,18 +985,16 @@ a.nav:hover {
 .portfolio-head {
   font-family: 'Londrina Solid', cursive;
   color: black;
-  font-size: 38px;
-  float: left;
-  margin-left: 3px; }
+  font-size: 38px; }
 
 .inspect-fox {
   width: 70px;
   height: 100%;
-  float: left;
-  margin-left: 32.41326%; }
+  display: inline-block;
+  vertical-align: center; }
 
 .project {
-  background-color: #F5D2CC;
+  background-color: #F0ECDB !important;
   padding: 1.5%;
   float: left;
   display: block;
@@ -1005,6 +1002,7 @@ a.nav:hover {
   margin-bottom: 2%;
   width: 82.94039%;
   margin-left: 8.5298%;
+  color: black;
   text-decoration: none; }
   .project:last-child {
     margin-right: 0;
@@ -1039,7 +1037,7 @@ a.nav:hover {
 }
 
 .live-link {
-  color: #414141;
+  color: black;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -1055,7 +1053,7 @@ a.site-link:hover {
   padding: 4px;
   float: left;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.4em;
   font-family: 'Josefin Sans', sans-serif;
   float: left;
   display: block;
@@ -1066,15 +1064,15 @@ a.site-link:hover {
   .project-info .icon-small {
     padding: 3px 1px 3px 3px; }
     .project-info .icon-small .project-icon {
-      color: #414141; }
+      color: black; }
     .project-info .icon-small .link-info {
       font-weight: 300;
       font-size: 20px;
-      color: #414141; }
+      color: black; }
 
 a.project-link:hover {
   text-decoration: none !important;
-  color: #414141 !important;
+  color: black;
   text-shadow: 1px 1px 0.5px #FFFFFF !important;
   transition: 300ms;
   webkit-transition: 300ms; }
@@ -1085,7 +1083,7 @@ a.project-link:hover {
     transition: 300ms;
     webkit-transition: 300ms; }
     a.project-link:hover .icon-small .project-icon {
-      color: #414141 !important;
+      color: black;
       text-shadow: 1px 1px 0.5px #FFFFFF !important;
       font-size: 10px;
       transition: 300ms;
@@ -1093,7 +1091,7 @@ a.project-link:hover {
     a.project-link:hover .icon-small .link-info {
       font-weight: 400 !important;
       font-size: 20px !important;
-      color: #414141 !important;
+      color: black;
       text-shadow: 1px 1px 0.5px #FFFFFF !important;
       transition: 300ms;
       webkit-transition: 300ms; }
@@ -1136,7 +1134,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 1.5%;
     float: left;
     display: block;
@@ -1177,7 +1174,6 @@ a.project-link:hover {
     padding: 4px;
     float: left;
     font-size: 16px;
-    line-height: 29px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1188,11 +1184,11 @@ a.project-link:hover {
     .project-info .icon-small {
       padding: 3px 1px 3px 3px; }
       .project-info .icon-small .project-icon {
-        color: #414141; }
+        color: black; }
       .project-info .icon-small .link-info {
         font-weight: 300;
         font-size: 20px;
-        color: #414141; }
+        color: black; }
 
   a.project-link:hover {
     text-decoration: none !important;
@@ -1255,7 +1251,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     float: left;
     display: block;
@@ -1292,7 +1287,7 @@ a.project-link:hover {
     padding: 4px;
     float: left;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.4em;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1367,7 +1362,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     float: left;
     display: block;
@@ -1415,7 +1409,6 @@ a.project-link:hover {
     padding: 4px;
     float: left;
     font-size: 14px;
-    line-height: 22px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1493,7 +1486,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     float: left;
     display: block;
@@ -1533,7 +1525,6 @@ a.project-link:hover {
     padding: 1px;
     float: left;
     font-size: 13px;
-    line-height: 20px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1611,7 +1602,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     margin-top: 1%;
     float: left;
@@ -1648,7 +1638,6 @@ a.project-link:hover {
     padding: 1px;
     float: left;
     font-size: 13px;
-    line-height: 18px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1726,7 +1715,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     margin-top: 1%;
     float: left;
@@ -1763,7 +1751,6 @@ a.project-link:hover {
   .project-info {
     padding: 1px;
     float: left;
-    font-size: 13px;
     line-height: 18px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
@@ -1842,7 +1829,6 @@ a.project-link:hover {
     float: left;
     margin-left: 23.88345%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     margin-top: 1%;
     float: left;
@@ -1885,7 +1871,6 @@ a.project-link:hover {
      padding: 1px;
   float: left;
   font-size: 11px;
-  line-height: 13px;
   font-family: 'Josefin Sans', sans-serif;
   float: left;
     margin-right: 2.35765%;
@@ -1935,7 +1920,6 @@ a.project-link:hover {
      padding: 1px;
      float: left;
      font-size: 10px;
-     line-height: 12px;
      font-family: 'Josefin Sans', sans-serif;
      float: left;
      display: block;
