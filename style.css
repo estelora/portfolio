@@ -991,7 +991,7 @@ a.nav:hover {
   vertical-align: center; }
 
 .project {
-  background-color: #E4E4E4;
+  background-color: #F0ECDB;
   padding: 1.5%;
   float: left;
   display: block;
@@ -1050,7 +1050,7 @@ a.site-link:hover {
   padding: 4px;
   float: left;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.4em;
   font-family: 'Josefin Sans', sans-serif;
   float: left;
   display: block;
@@ -1171,7 +1171,6 @@ a.project-link:hover {
     padding: 4px;
     float: left;
     font-size: 16px;
-    line-height: 29px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1249,7 +1248,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     float: left;
     display: block;
@@ -1286,7 +1284,7 @@ a.project-link:hover {
     padding: 4px;
     float: left;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.4em;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1361,7 +1359,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     float: left;
     display: block;
@@ -1409,7 +1406,6 @@ a.project-link:hover {
     padding: 4px;
     float: left;
     font-size: 14px;
-    line-height: 22px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1487,7 +1483,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     float: left;
     display: block;
@@ -1527,7 +1522,6 @@ a.project-link:hover {
     padding: 1px;
     float: left;
     font-size: 13px;
-    line-height: 20px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1605,7 +1599,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     margin-top: 1%;
     float: left;
@@ -1642,7 +1635,6 @@ a.project-link:hover {
     padding: 1px;
     float: left;
     font-size: 13px;
-    line-height: 18px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
     display: block;
@@ -1720,7 +1712,6 @@ a.project-link:hover {
     float: left;
     margin-left: 32.41326%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     margin-top: 1%;
     float: left;
@@ -1757,7 +1748,6 @@ a.project-link:hover {
   .project-info {
     padding: 1px;
     float: left;
-    font-size: 13px;
     line-height: 18px;
     font-family: 'Josefin Sans', sans-serif;
     float: left;
@@ -1836,7 +1826,6 @@ a.project-link:hover {
     float: left;
     margin-left: 23.88345%; }
   .project {
-    background-color: #F5D2CC;
     padding: 2%;
     margin-top: 1%;
     float: left;
@@ -1879,7 +1868,6 @@ a.project-link:hover {
      padding: 1px;
   float: left;
   font-size: 11px;
-  line-height: 13px;
   font-family: 'Josefin Sans', sans-serif;
   float: left;
     margin-right: 2.35765%;
@@ -1929,7 +1917,6 @@ a.project-link:hover {
      padding: 1px;
      float: left;
      font-size: 10px;
-     line-height: 12px;
      font-family: 'Josefin Sans', sans-serif;
      float: left;
      display: block;
