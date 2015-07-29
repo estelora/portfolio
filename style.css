@@ -994,7 +994,7 @@ a.nav:hover {
   vertical-align: center; }
 
 .project {
-  background-color: #F0ECDB;
+  background-color: #F0ECDB !important;
   padding: 1.5%;
   float: left;
   display: block;
