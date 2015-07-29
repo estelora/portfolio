@@ -969,16 +969,12 @@ a.nav:hover {
 .inspect-header {
   text-align: center;
   padding: 5px 0.5% 1%;
+  display: inline-block;
   float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 91.4702%;
-  margin-left: 4.2649%; }
+  display: inline-block;
+  width: 91.4702%; }
   .inspect-header:last-child {
     margin-right: 0; }
-
-.portfolio-spacer {
-  margin-top: 1.5%; }
 
 .copy-spacer {
   margin-top: 3.5%; }
@@ -986,15 +982,13 @@ a.nav:hover {
 .portfolio-head {
   font-family: 'Londrina Solid', cursive;
   color: black;
-  font-size: 38px;
-  float: left;
-  margin-left: 3px; }
+  font-size: 38px; }
 
 .inspect-fox {
   width: 70px;
   height: 100%;
-  float: left;
-  margin-left: 32.41326%; }
+  display: inline-block;
+  vertical-align: center; }
 
 .project {
   background-color: #F5D2CC;
