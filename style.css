@@ -878,7 +878,7 @@ a.nav:hover {
     font-weight: 400;
   }
   .iron-yard-link:hover {
-    text-shadow: 0.5px 0.5px 0.3px #FFFFFF;
+    text-shadow: .3px .3px .3px #FF6702;
     transition: 300ms;
   }
 
